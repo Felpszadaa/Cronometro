@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cronometro {
+  width: 350px;
+  height: 350px;
+  margin-top: 50px;
+}
+
+.timer {
+  font-size: 100px;
+  margin-top: -200px;
+}
+
+.areaBtn {
+  margin-top: 100px;
+  display: flex;
+}
+
+.botao {
+  width: 150px;
+  background-color: #fff;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 3px;
+}
+
+.botao:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.70s; 
+  cursor: pointer;
+  letter-spacing: 6px;
+}
